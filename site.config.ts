@@ -3,11 +3,11 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '一岛糖桔 | Blog',
   author: {
     name: '一岛糖桔',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: '给我打电话吧，叫我出去吧！带我去散步在路灯下，牵我的手。',
   social: [
     {
       name: 'RSS',
@@ -16,14 +16,14 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ 2595190770',
+      link: 'https://ydtjv.cn',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/YDTJv',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
