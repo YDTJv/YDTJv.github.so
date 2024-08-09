@@ -5,7 +5,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'Valaxy Theme Yun',
   author: {
-    name: '云游君',
+    name: '一岛糖桔',
   },
   description: 'Valaxy Theme Yun Preview.',
   social: [
