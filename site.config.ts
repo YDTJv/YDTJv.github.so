@@ -5,12 +5,15 @@ export default defineSiteConfig({
   /**
    * 基础配置
    */
-  url: 'https://valaxy.site/',
+  url: 'https://www.ydtjv.cn',
   lang: 'zh-CN',
   title: '一岛糖桔 | Blog',       // 网站标题
   author: {
     name: '一岛糖桔',                                    // 头像下方名
     avatar: 'https://www.ydtjv.cn/images/avatar.svg',   // 头像
+    status: {
+      emoji: '👩‍💻',                                      // 当前状态
+    },
   },
 
   /**
@@ -116,8 +119,19 @@ export default defineSiteConfig({
     // },
   ],
 
+  /**
+   * 搜索栏
+   */
   search: {
-    enable: false,
+    enable: true,
+    type: 'fuse',
+  },
+  
+  /**
+   * 评论
+   */
+  comment: {
+    enable: true,
   },
 
   /**
@@ -129,7 +143,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/images/donate/zfb_donate.jpg',
+        url: 'https://www.yunyoujun.cn/images/donate/zfb_donate.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
@@ -141,7 +155,7 @@ export default defineSiteConfig({
       // },
       {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/images/donate/vx_donate.jpg',
+        url: 'https://www.yunyoujun.cn/images/donate/vx_donate.jpg',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },

@@ -98,6 +98,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors: ['#66A7DD', '#3E83E1', '#214EC2'],
     },
 
+    /**
+     * 自定义文章卡片类型
+     */
+    // types: {
+    //   color: '#214EC2',
+    //   icon: 'i-ri-genderless-line',
+    // },
+
 
     /**
      * 页脚
