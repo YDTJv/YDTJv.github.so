@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "一岛糖桔 | Blog",
+    "home_page_url": "https://www.ydtjv.cn/",
+    "feed_url": "https://www.ydtjv.cn/feed.json",
+    "description": "许我人间一两风，填我十万八千梦。",
+    "icon": "https://www.ydtjv.cn/images/avatar.svg",
+    "author": {
+        "name": "一岛糖桔",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://www.ydtjv.cn/posts/hello-valaxy\" target=\"_blank\">https://www.ydtjv.cn/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://www.ydtjv.cn/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "一岛糖桔",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
